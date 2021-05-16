@@ -1,494 +1,492 @@
-@import url('https://fonts.googleapis.com/css2?family=Antic&family=Anton&family=Bangers&family=Satisfy&family=Special+Elite&family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Antic&family=Anton&family=Bangers&family=Satisfy&family=Special+Elite&family=Ubuntu&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 .max-width {
-    max-width: 1300px;
-    padding: 0 80px;
-    margin: auto;
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
 }
 
 .navbar {
-    position: fixed;
-    width: 100%;
-    background: transparent;
-    padding: 12px 0;
-    font-family: 'Special Elite', sans-serif;
-    z-index: 10000;
-    transition: all 0.6s ease;
+  position: fixed;
+  width: 100%;
+  background: transparent;
+  padding: 12px 0;
+  font-family: "Special Elite", sans-serif;
+  z-index: 10000;
+  transition: all 0.6s ease;
 }
 
 .navbar.sticky {
-    padding: 12px 0;
-    background: #B00000;
+  padding: 12px 0;
+  background: #b00000;
 }
 
 .navbar .max-width {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navbar .logo a {
-    font-size: 30px;
-    font-family: 'Bangers', sans-serif;
-    font-weight: 600;
-    color: white;
+  font-size: 30px;
+  font-family: "Bangers", sans-serif;
+  font-weight: 600;
+  color: white;
 }
 
 .navbar .menu li {
-    display: inline-block;
-    list-style: none;
+  display: inline-block;
+  list-style: none;
 }
 
 .navbar .menu li a {
-    display: block;
-    font-size: 16px;
-    font-weight: 500;
-    margin-left: 20px;
-    color: white;
+  display: block;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 20px;
+  color: white;
 }
 
 .navbar .menu li a:hover {
-    color: #7CB9E8;
+  color: #7cb9e8;
 }
 
 .menu-btn {
-    color: white;
-    cursor: pointer;
-    font-size: 20;
-    display: none;
+  color: white;
+  cursor: pointer;
+  font-size: 20;
+  display: none;
 }
-
 
 /* Home section */
 .home {
-    display: flex;
-    background: url("images/banner.jpg") no-repeat center;
-    background-attachment: fixed;
-    background-size: cover;
-    height: 100vh;
-    min-height: 500px;
-    font-family: 'Ubuntu', sans-serif;
-    color: white;
+  display: flex;
+  background: url("images/banner.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  min-height: 500px;
+  font-family: "Ubuntu", sans-serif;
+  color: white;
 }
 
 .home .max-width {
-    margin: auto 0 auto 40px;
+  margin: auto 0 auto 40px;
 }
 
 .home .home-content .text-1 {
-    font-size: 30px;
+  font-size: 30px;
 }
 
 .home .home-content .text-2 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 .home .home-content .text-3 {
-    font-size: 40px;
+  font-size: 40px;
 }
 
 .home .home-content .text-3 span {
-    font-size: 40px;
-    font-weight: 500;
+  font-size: 40px;
+  font-weight: 500;
 }
 
 section {
-    padding: 70px 0;
+  padding: 70px 0;
 }
 
-.about, .services, .skills, .teams, .contact {
-    font-family: 'Antic', sans-serif;
+.about,
+.services,
+.skills,
+.teams,
+.contact {
+  font-family: "Antic", sans-serif;
 }
 
 section .title {
-    font-family: 'Satisfy', sans-serif;
-    text-decoration: underline;
-    text-align: center;
-    font-size: 45px;
-    font-weight: 800;
-    margin-bottom: 30px;
-    padding-bottom: 15px;
+  font-family: "Satisfy", sans-serif;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
 }
 
-.about .about-content, .services .services-content, .skills .skills-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.about .about-content,
+.services .services-content,
+.skills .skills-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
-
 
 /* About section */
 .about .about-content .left {
-    width: 45%;
+  width: 45%;
 }
 
 .about .about-content .left img {
-    height: 350px;
-    width: 350px;
-    object-fit: cover;
+  height: 350px;
+  width: 350px;
+  object-fit: cover;
 }
 
 .about .about-content .right {
-    width: 55%;
+  width: 55%;
 }
 
 .about .about-content .right .text {
-    font-size: 25px;
-    margin-bottom: 6px;
+  font-size: 25px;
+  margin-bottom: 6px;
 }
 
 .about .about-content .right .text span {
-    color: purple;
+  color: purple;
 }
 
 .about .about-content .right p {
-    text-align: justify;
+  text-align: justify;
 }
-
 
 /* Services section */
 .services {
-    background: #5A4FCF;
-    color: white;
+  background: #5a4fcf;
+  color: white;
 }
 
 .services .services-content .card {
-    width: calc(33% - 20px);
-    text-align: center;
-    border-radius: 10px;
-    padding: 20px 25px;
+  width: calc(33% - 20px);
+  text-align: center;
+  border-radius: 10px;
+  padding: 20px 25px;
 }
 
 .services .services-content .card .box {
-    transition: all 0.5s ease; 
+  transition: all 0.5s ease;
 }
 
 .services .services-content .card:hover .box {
-    transform: scale(1.15);
+  transform: scale(1.15);
 }
 
 .services .services-content .card i {
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: purple;
-    font-size: 60px;
+  color: transparent;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: purple;
+  font-size: 60px;
 }
 
 .services .services-content .card .text {
-    padding-top: 30px;
-    margin: 10px 0 7px 0;
-    font-size: 25px;
-    color: white;
-    font-family: 'Antic', sans-serif;
+  padding-top: 30px;
+  margin: 10px 0 7px 0;
+  font-size: 25px;
+  color: white;
+  font-family: "Antic", sans-serif;
 }
-
 
 /* Skills section */
 .skills .skills-content .column {
-    width: calc(50% - 30px);
+  width: calc(50% - 30px);
 }
 
 .skills .skills-content .left .text {
-   margin-bottom: 8px; 
-   font-size: 20px;
+  margin-bottom: 8px;
+  font-size: 20px;
 }
 
 .skills .skills-content .left p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .skills .skills-content .right .bars {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .skills .skills-content .right .info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
 }
 
 .skills .skills-content .right span {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .skills .skills-content .right .line {
-    position: relative;
-    height: 5px;
-    width: 100%;
-    background: black;
+  position: relative;
+  height: 5px;
+  width: 100%;
+  background: black;
 }
 
 .skills .skills-content .right .line::before {
-    content: "";
-    position: absolute;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background: red;
+  content: "";
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: red;
 }
 
 .skills-content .right .html::before {
-    width: 90%;
+  width: 90%;
 }
 
 .skills-content .right .css::before {
-    width: 60%;
+  width: 60%;
 }
 
 .skills-content .right .javascript::before {
-    width: 60%;
+  width: 60%;
 }
 
 .skills-content .right .python::before {
-    width: 60%;
+  width: 60%;
 }
 
 .skills-content .right .c::before {
-    width: 30%;
+  width: 30%;
 }
-
 
 /* Teams section */
 .teams {
-    background: #1B4D3E;
+  background: #1b4d3e;
 }
 .teams .carousel .card {
-    text-align: center;
-    color: white;
-    padding: 20px 30px;
-    transition: all 0.5s ease;
+  text-align: center;
+  color: white;
+  padding: 20px 30px;
+  transition: all 0.5s ease;
 }
 
 .teams .carousel .card:hover {
-    color: black;
-    transform: scale(1.15);
+  color: black;
+  transform: scale(1.15);
 }
 
 .teams .carousel .card .box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .teams .carousel .card .text {
-    font-size: 20px;
-    margin: 10px 0 6px 0;
+  font-size: 20px;
+  margin: 10px 0 6px 0;
 }
 
 .teams .carousel .card img {
-    height: 230px;
-    width: 230px;
-    object-fit: cover;
-    border-radius: 50%;
-    #border: 2px solid black;
+  height: 230px;
+  width: 230px;
+  object-fit: cover;
+  border-radius: 50%;
+  #border: 2px solid black;
 }
 
 .teams .carousel .card:hover img {
-    border-color: black;
+  border-color: black;
 }
 
 .owl-dots {
-    margin: 15px;
-    text-align: center;
+  margin: 15px;
+  text-align: center;
 }
 
 .owl-dot {
-    margin: 0 4px;
-    height: 12px;
-    width: 12px;
-    outline: none!important;
-    border-radius: 50%;
-    border: 2px solid black!important;
+  margin: 0 4px;
+  height: 12px;
+  width: 12px;
+  outline: none !important;
+  border-radius: 50%;
+  border: 2px solid black !important;
 }
 
 .owl-dot.active {
-    border-radius: 15px;
-    width: 30px;
+  border-radius: 15px;
+  width: 30px;
 }
 
-.owl-dot.active, .owl-dot:hover {
-    background: black!important;
+.owl-dot.active,
+.owl-dot:hover {
+  background: black !important;
 }
-
 
 /* Contact section */
 .contact {
-    background: #D8D8D8;
+  background: #d8d8d8;
 }
 
 .contact .contact-content .column {
-    width: calc(50% - 30px);
-    padding-left: 100px;
+  width: calc(50% - 30px);
+  padding-left: 100px;
 }
 
 .contact .contact-content .text {
-    font-family: 'Anton', sans-serif;
-    color: white;
-    font-size: 80px;
-    font-weight: 800;
-    margin-bottom: 8px;
+  font-family: "Anton", sans-serif;
+  color: white;
+  font-size: 80px;
+  font-weight: 800;
+  margin-bottom: 8px;
 }
 
 .contact .contact-content .text-1 {
-    padding-top: 40px;
-    font-weight: 500;
-    font-family: 'Antic', sans-serif;
+  padding-top: 40px;
+  font-weight: 500;
+  font-family: "Antic", sans-serif;
 }
 
 .contact .contact-content .text-2 {
-    padding-top: 10px;
-    font-weight: 500;
-    font-family: 'Antic', sans-serif;
+  padding-top: 10px;
+  font-weight: 500;
+  font-family: "Antic", sans-serif;
 }
 
 .contact .contact-content .text-3 {
-    padding-top: 10px;
-    font-weight: 500;
-    font-family: 'Antic', sans-serif;
+  padding-top: 10px;
+  font-weight: 500;
+  font-family: "Antic", sans-serif;
 }
-
 
 /* Footer section */
 footer .text {
-    padding: 15px 20px;
-    color: black;
-    background: white;
-    font-family: 'Antic', sans-serif;
-    font-size: 18px;
-    font-weight: 900;
-    padding-left: 100px;
+  padding: 15px 20px;
+  color: black;
+  background: white;
+  font-family: "Antic", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  padding-left: 100px;
 }
 
 footer .fa-copyright {
-    font-size: 15px;
+  font-size: 15px;
 }
-
 
 /* Media query for responsive design */
 @media (max-width: 1200px) {
-    .home .max-width {
-        margin-left: 0px;
-    } 
+  .home .max-width {
+    margin-left: 0px;
+  }
 }
 
 @media (max-width: 1000px) {
-   .about .about-content .left img {
-        height: 250px;
-        width: 250px;
-   } 
+  .about .about-content .left img {
+    height: 250px;
+    width: 250px;
+  }
 }
 
 @media (max-width: 950px) {
-    .max-width {
-        padding: 0 50px;
-    } 
+  .max-width {
+    padding: 0 50px;
+  }
 }
 
-@media (max-width: 900px){
-    .max-width{
-        padding: 0 30px;
-    }
-    .menu-btn {
-        display: block;
-        z-index: 999;
-    }
-    .menu-btn i.active:before {
-        content: "\f00d";
-    }
-    .navbar .menu {
-        position: fixed;
-        background: lightgray;
-        text-align: center;
-        height: 100vh;
-        width: 100%;
-        top: 0;
-        left: -100%;
-    }
-    .navbar .menu.active {
-        left: 0;
-    }
-    .navbar .menu li {
-        display: block;
-    }
+@media (max-width: 900px) {
+  .max-width {
+    padding: 0 30px;
+  }
+  .menu-btn {
+    display: block;
+    z-index: 999;
+  }
+  .menu-btn i.active:before {
+    content: "\f00d";
+  }
+  .navbar .menu {
+    position: fixed;
+    background: lightgray;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    left: -100%;
+  }
+  .navbar .menu.active {
+    left: 0;
+  }
+  .navbar .menu li {
+    display: block;
+  }
 
-    .navbar .menu li a {
-        display: inline-block;
-        margin: 20px 0;
-        font-size: 20px;
-    }
-    .home .home-content .text-2 {
-        font-size: 45px;
-    }
-    .home .home-content .text-3 {
-        font-size: 35px;
-    }
-    
-    .max-width {
-        max-width: 800px;
-        padding: 0 80px;
-        margin: auto;
-    }
+  .navbar .menu li a {
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 20px;
+  }
+  .home .home-content .text-2 {
+    font-size: 45px;
+  }
+  .home .home-content .text-3 {
+    font-size: 35px;
+  }
 
-    .about .about-content .column {
-        width: 100%; 
-    }
+  .max-width {
+    max-width: 800px;
+    padding: 0 80px;
+    margin: auto;
+  }
 
-    .about .about-content .left {
-        display: flex;
-        justify-content: center;
-        margin: 0 auto 60px;
-    }
+  .about .about-content .column {
+    width: 100%;
+  }
 
-    .about .about-content .right {
-        flex: 100%;
-    }
+  .about .about-content .left {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+  }
 
-    .services .services-content .card {
-        width: calc(50% - 10px);
-        margin-bottom: 20px;
-    }
+  .about .about-content .right {
+    flex: 100%;
+  }
 
-    .skills .skills-content .column, .contact .contact-content .column {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+  .services .services-content .card {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+  }
 
-    
+  .skills .skills-content .column,
+  .contact .contact-content .column {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 @media (max-width: 600px) {
-    .max-width {
-        padding: 0 20px;
-    }
-    .home .home-content .text-2 {
-        font-size: 35;
-    }
-    .home .home-content .text-3 {
-        font-size: 28px;
-    }
-    .services .services-content .card {
-        width: 100%;
-    }
+  .max-width {
+    padding: 0 20px;
+  }
+  .home .home-content .text-2 {
+    font-size: 35;
+  }
+  .home .home-content .text-3 {
+    font-size: 28px;
+  }
+  .services .services-content .card {
+    width: 100%;
+  }
 }
 
 @media (max-width: 450px) {
-    .max-width {
-        padding: 0 10px;
-    }
-    .home .home-content .text-2 {
-        font-size: 28;
-    }
-    .home .home-content .text-3 {
-        font-size: 24px;
-    }
+  .max-width {
+    padding: 0 10px;
+  }
+  .home .home-content .text-2 {
+    font-size: 28;
+  }
+  .home .home-content .text-3 {
+    font-size: 24px;
+  }
 }
